@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/sje/static/css/main.9850d573.css",
-    "main.js": "/sje/static/js/main.a569c21d.js",
+    "main.js": "/sje/static/js/main.f813c99d.js",
     "static/media/back.jpg": "/sje/static/media/back.b58892880b774fb97e7c.jpg",
     "static/media/megabox.png": "/sje/static/media/megabox.b5f9612bdc7d30f8cc47.png",
     "static/media/millie-logo.png": "/sje/static/media/millie-logo.74d4d1997ea7107bcf66.png",
     "index.html": "/sje/index.html",
     "main.9850d573.css.map": "/sje/static/css/main.9850d573.css.map",
-    "main.a569c21d.js.map": "/sje/static/js/main.a569c21d.js.map"
+    "main.f813c99d.js.map": "/sje/static/js/main.f813c99d.js.map"
   },
   "entrypoints": [
     "static/css/main.9850d573.css",
-    "static/js/main.a569c21d.js"
+    "static/js/main.f813c99d.js"
   ]
 }
