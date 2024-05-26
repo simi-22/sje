@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/sje/static/css/main.9850d573.css",
-    "main.js": "/sje/static/js/main.f813c99d.js",
+    "main.css": "/sje/static/css/main.efe08325.css",
+    "main.js": "/sje/static/js/main.3aef2f01.js",
     "static/media/back.jpg": "/sje/static/media/back.b58892880b774fb97e7c.jpg",
+    "static/media/times.png": "/sje/static/media/times.16ea5715d81a725c56a8.png",
     "static/media/megabox.png": "/sje/static/media/megabox.b5f9612bdc7d30f8cc47.png",
     "static/media/millie-logo.png": "/sje/static/media/millie-logo.74d4d1997ea7107bcf66.png",
+    "static/media/yes24.png": "/sje/static/media/yes24.b88a882bb1f2faeef24b.png",
+    "static/media/muvic.png": "/sje/static/media/muvic.b47ed19439acb43e6697.png",
+    "static/media/netflix.png": "/sje/static/media/netflix.6132b51357859205888b.png",
+    "static/media/SND.png": "/sje/static/media/SND.5d7f260ffd32c847edfb.png",
     "index.html": "/sje/index.html",
-    "main.9850d573.css.map": "/sje/static/css/main.9850d573.css.map",
-    "main.f813c99d.js.map": "/sje/static/js/main.f813c99d.js.map"
+    "main.efe08325.css.map": "/sje/static/css/main.efe08325.css.map",
+    "main.3aef2f01.js.map": "/sje/static/js/main.3aef2f01.js.map"
   },
   "entrypoints": [
-    "static/css/main.9850d573.css",
-    "static/js/main.f813c99d.js"
+    "static/css/main.efe08325.css",
+    "static/js/main.3aef2f01.js"
   ]
 }
