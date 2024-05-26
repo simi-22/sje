@@ -1,0 +1,15 @@
+ul#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 100%;
+  padding: 10px;
+  height: 80px;
+  z-index: 100;
+  li {
+    margin-right: 10px;
+  }
+}
