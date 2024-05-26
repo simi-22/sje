@@ -1,19 +1,19 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
-import "../Styles/About.scss";
+import "../Styles/About.css";
 
 const About = () => {
   const about0Ref = useRef(null);
   const about1Ref = useRef(null);
   const about2Ref = useRef(null);
-  const about3Ref = useRef(null);
+  // const about3Ref = useRef(null);
 
   useEffect(() => {
     const aboutElements = [
       about0Ref.current,
       about1Ref.current,
       about2Ref.current,
-      about3Ref.current,
+      // about3Ref.current,
     ];
     aboutElements.forEach((el) => {
       gsap.to(el, {
@@ -257,14 +257,14 @@ const About = () => {
           </li>
         </ul>
       </div>
-      <div className="about about3" ref={about3Ref}>
+      {/* <div className="about about3" ref={about3Ref}>
         <h1>Project</h1>
         <p>
           Html,Css,Javascript,React, jQuery등을 사용하며 만들어본
           프로젝트입니다.
           <br /> 팀프로젝트는 학원과 온라인에서 진행했습니다.
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };
