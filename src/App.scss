@@ -1,11 +1,4 @@
 @font-face {
-  font-family: "GasoekOne-Regular";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_JAMO@1.0/GasoekOne-Regular.woff2")
-    format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: "Pretendard-Regular";
   src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
     format("woff");
@@ -54,6 +47,7 @@ button {
 h1 {
   font-size: var(--fontSizeBig);
   font-style: italic;
+  font-family: Fahkwang;
 }
 h2 {
   font-size: var(--fontSizeSecond);

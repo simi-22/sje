@@ -1,6 +1,26 @@
 #contact {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100vh;
   background-color: black;
+  padding: 20px;
+  overflow: hidden;
+}
+#contact * {
   color: #fff;
+}
+#contact p {
+  width: 100%;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: 10%;
+  font-family: Fahkwang;
+  display: inline-block;
+}
+#contact p * {
+  font-size: 8vw;
 }

@@ -36,140 +36,171 @@ const Project = () => {
           <p>
             Html,Css,Javascript,React, jQuery등을 사용하며 만들어본
             프로젝트입니다.
-            <br /> 팀프로젝트는 학원과 온라인에서 진행했습니다.
+            <br /> 더 많은 작업물은 Github에서 보실 수 있습니다.
           </p>
         </div>
         <ul className="project-container" ref={containerRef}>
           {/* 밀리 */}
           {/* 밀리 */}
-          <li className="millie project">
+          <li
+            className="millie project"
+            onClick={() =>
+              window.open("https://simi-22.github.io/millie-web/main")
+            }
+          >
             <div className="logoWrap">
               <img src={Millie} alt="밀리의서재 로고" />
             </div>
-            <div>
-              <p>
-                <span>#Responsive</span> <span className="p-html">#HTML5</span>
-                <span className="p-css">#CSS3</span>
-                <span className="p-javascript">#Javascript</span>
-              </p>
-            </div>
+            <p
+              className="p-github"
+              onClick={() =>
+                window.open("https://github.com/simi-22/millie-web")
+              }
+            >
+              Github
+            </p>
+            <p className="responsive">Responsive</p>
+            <div></div>
           </li>
           {/* 알디에스 */}
           {/* 알디에스 */}
-          <li className="rds project">
+          <li
+            className="rds project"
+            onClick={() => window.open("https://simi-22.github.io/rds/")}
+          >
             <div className="logoWrap">
               <img src={RDS} alt="RDS 로고" />
             </div>
-            <div>
-              <p>
-                <span className="p-team">#Team</span>
-                <span className="p-res">#Responsive</span>
-                <span className="p-html">#HTML5</span>
-                <span className="p-css">#CSS3</span>
-                <span>#Bootstrap</span>
-                <span>#jQuery</span>
-              </p>
-            </div>
+            <p
+              className="p-github"
+              onClick={() => window.open("https://github.com/simi-22/rds")}
+            >
+              Github
+            </p>
+            <p className="responsive">Responsive</p>
+            <p className="team">Team</p>
+
+            <div></div>
           </li>
           {/* 메가박스 */}
           {/* 메가박스 */}
-          <li className="megabox project">
+          <li
+            className="megabox project"
+            onClick={() => window.open("https://simi-22.github.io/megabox/")}
+          >
             <div className="logoWrap">
               <img src={MEGABOX} alt="메가박스 로고" />
             </div>
-            <div>
-              <p>
-                <span className="p-team">#Team</span>
-                <span className="p-html">#HTML5</span>
-                <span className="p-css">#CSS3</span>
-                <span>#swiper.js</span>
-              </p>
-            </div>
+            <p
+              className="p-github"
+              onClick={() => window.open("https://github.com/simi-22/megabox")}
+            >
+              Github
+            </p>
+            <p className="team">Team</p>
+            <div></div>
           </li>
           {/* 뮤빅 */}
           {/* 뮤빅 */}
-          <li className="muvic project">
+          <li
+            className="muvic project"
+            onClick={() => window.open("https://muvic.netlify.app/")}
+          >
             <div className="logoWrap">
               <img src={MUVIC} alt="뮤빅 로고" />
             </div>
-            <div>
-              <p>
-                <span className="p-team">#Team</span>
-                <span className="p-res">#Responsive</span>
-                <span className="p-html">#HTML5</span>
-                <span className="p-css">#CSS3</span>
-                <span className="p-javascript">#Javascript</span>
-                <span className="p-api">api</span>
-              </p>
-            </div>
+            <p
+              className="p-github"
+              onClick={() =>
+                window.open("https://github.com/simi-22/group-23-api-project")
+              }
+            >
+              Github
+            </p>
+            <p className="responsive">Responsive</p>
+            <p className="team">Team</p>
+
+            <div></div>
           </li>
           {/* 뉴욕타임즈 */}
           {/* 뉴욕타임즈 */}
-          <li className="times project">
+          <li
+            className="times project"
+            onClick={() => window.open("https://simi-22.github.io/NewsApp/")}
+          >
             <div className="logoWrap">
               <img src={TIMES} alt="뉴욕타임즈 로고" />
             </div>
-            <div>
-              <p>
-                <span className="p-res">#Responsive</span>
-                <span className="p-html">#HTML5</span>
-                <span className="p-css">#CSS3</span>
-                <span className="p-javascript">#Javascript</span>
-                <span className="p-api">api</span>
-              </p>
-            </div>
+            <p
+              className="p-github"
+              onClick={() => window.open("https://github.com/simi-22/NewsApp")}
+            >
+              Github
+            </p>
+            <p className="responsive">Responsive</p>
+
+            <div></div>
           </li>
           {/* 넷플릭스 */}
           {/* 넷플릭스 */}
-          <li className="netflix project">
+          <li
+            className="netflix project"
+            onClick={() => window.open("https://nmoviewebsite.netlify.app/")}
+          >
             <div className="logoWrap">
               <img src={Netflix} alt="넷플릭스 로고" />
             </div>
-            <div>
-              <p>
-                <span className="p-res">#Responsive</span>
-                <span className="p-html">#HTML5</span>
-                <span className="p-css">#CSS3</span>
-                <span className="p-javascript">#Javascript</span>
-                <span className="p-react">REACT</span>
-                <span className="p-api">api</span>
-              </p>
-            </div>
+            <p
+              className="p-github"
+              onClick={() => window.open("https://github.com/simi-22/Netflix")}
+            >
+              Github
+            </p>
+            <p className="responsive">Responsive</p>
+
+            <div></div>
           </li>
           {/* 예스24 */}
           {/* 예스24 */}
-          <li className="yes24 project">
+          <li
+            className="yes24 project"
+            onClick={() => window.open("https://booksmall.netlify.app/?q=")}
+          >
             <div className="logoWrap">
               <img src={YES24} alt="예스24 로고" />
             </div>
-            <div>
-              <p>
-                <span className="p-res">#Responsive</span>
-                <span className="p-html">#HTML5</span>
-                <span className="p-css">#CSS3</span>
-                <span className="p-javascript">#Javascript</span>
-                <span className="p-react">REACT</span>
-                <span>My json server</span>
-              </p>
-            </div>
+            <p
+              className="p-github"
+              onClick={() =>
+                window.open("https://github.com/simi-22/shoppingmall")
+              }
+            >
+              Github
+            </p>
+            <p className="responsive">Responsive</p>
+
+            <div></div>
           </li>
           {/* 쉐이크앤드링크 */}
           {/* 쉐이크앤드링크 */}
-          <li className="shake-drink project">
+          <li
+            className="shake-drink project"
+            onClick={() => window.open("https://shake-drink.vercel.app/")}
+          >
             <div className="logoWrap">
-              <img src={ShakeNDrink} alt="넷플릭스 로고" />
+              <img src={ShakeNDrink} alt="쉐이크앤드링크 로고" />
             </div>
-            <div>
-              <p>
-                <span className="p-team">#Team</span>
-                <span className="p-res">#Responsive</span>
-                <span className="p-html">#HTML5</span>
-                <span className="p-css">#CSS3</span>
-                <span className="p-javascript">#Javascript</span>
-                <span className="p-react">REACT</span>
-                <span className="p-api">api</span>
-              </p>
-            </div>
+            <p
+              className="p-github"
+              onClick={() =>
+                window.open("https://github.com/simi-22/shake_drink")
+              }
+            >
+              Github
+            </p>
+            <p className="responsive">Responsive</p>
+            <p className="team">Team</p>
+            <div></div>
           </li>
         </ul>
       </div>

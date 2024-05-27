@@ -68,14 +68,14 @@ const About = () => {
       </div>
       <div className="about about1" ref={about1Ref}>
         <p className="about-1-cover"></p>
-        <div class="scene">
-          <div class="cube">
-            <div class="cube__face cube__face--front">creative</div>
-            <div class="cube__face cube__face--back">Goal-oriented</div>
-            <div class="cube__face cube__face--right">Diligent</div>
-            <div class="cube__face cube__face--left">Collaborative</div>
-            <div class="cube__face cube__face--top">Communicative</div>
-            <div class="cube__face cube__face--bottom">Self-motivated</div>
+        <div className="scene">
+          <div className="cube">
+            <div className="cube__face cube__face--front">creative</div>
+            <div className="cube__face cube__face--back">Goal-oriented</div>
+            <div className="cube__face cube__face--right">Diligent</div>
+            <div className="cube__face cube__face--left">Collaborative</div>
+            <div className="cube__face cube__face--top">Communicative</div>
+            <div className="cube__face cube__face--bottom">Self-motivated</div>
           </div>
         </div>
         <h1>Self-improvement</h1>

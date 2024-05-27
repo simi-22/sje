@@ -4,8 +4,7 @@ import "../Styles/Header.css";
 const Header = () => {
   return (
     <ul id="header">
-      <li>About</li>
-      <li>Project</li>
+      <li>SJE</li>
       <li>Contact</li>
     </ul>
   );
