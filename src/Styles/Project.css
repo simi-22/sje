@@ -103,6 +103,7 @@
 }
 #projects .project-container li.muvic {
   background-color: #fff;
+  border-bottom: 1px solid #ccc;
 }
 #projects .project-container li.times {
   background-color: #fff;
@@ -115,4 +116,29 @@
 }
 #projects .project-container li.shake-drink {
   background-color: #45b4e6;
+}
+
+@media (max-width: 868px) {
+  #projects {
+    width: 100vw;
+  }
+  #projects .p-title {
+    position: relative;
+    padding-top: 40px;
+  }
+  #projects .project-container {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  #projects .project-container li {
+    width: 100%;
+    height: 200px;
+    border-radius: 0;
+    margin: 0;
+  }
+  #projects .project-container li .logoWrap img {
+    width: 180px;
+  }
 }

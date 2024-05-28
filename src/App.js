@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<AppLayout />}>
             <Route index element={<Home />} />
-            <Route path="/gsap" element={<GsapTest />} />
+            {/* <Route path="/gsap" element={<GsapTest />} /> */}
           </Route>
         </Routes>
       </BrowserRouter>

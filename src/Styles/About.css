@@ -94,8 +94,6 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  -webkit-backdrop-filter: blur(1px);
-  backdrop-filter: blur(1px);
   z-index: 10;
 }
 #about .about1 .scene {

@@ -9,23 +9,53 @@ import TIMES from "../assets/times.png";
 import Netflix from "../assets/netflix.png";
 import YES24 from "../assets/yes24.png";
 import ShakeNDrink from "../assets/SND.png";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Project = () => {
   const containerRef = useRef(null);
+  const scrollTrigger = useRef(null);
 
   useEffect(() => {
     const container = containerRef.current;
 
-    gsap.to(container, {
-      x: () => -(container.scrollWidth - window.innerWidth), // 수평 스크롤 거리 설정
-      ease: "none",
-      scrollTrigger: {
-        trigger: container,
-        pin: true,
-        scrub: 1,
-        end: () => "+=" + container.scrollWidth,
-      },
-    });
+    const createGsapAnimation = () => {
+      scrollTrigger.current = gsap.to(container, {
+        x: () => -(container.scrollWidth - window.innerWidth),
+        ease: "none",
+        scrollTrigger: {
+          trigger: container,
+          pin: true,
+          scrub: 1,
+          end: () => "+=" + container.scrollWidth,
+        },
+      }).scrollTrigger; //따로
+    };
+
+    const handleResize = () => {
+      // 윈도우 너비가 868px 이하일 때 GSAP 애니메이션 제거
+      if (window.innerWidth > 868) {
+        if (!scrollTrigger.current) {
+          createGsapAnimation();
+        }
+      } else {
+        if (scrollTrigger.current) {
+          scrollTrigger.current.kill(); //current
+          scrollTrigger.current = null;
+          gsap.set(container, { x: 0 });
+        }
+      }
+    };
+
+    // 초기 실행 및 이벤트 리스너 등록
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    // 컴포넌트 언마운트 시 이벤트 리스너 제거
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      if (scrollTrigger.current) {
+        scrollTrigger.current.kill();
+      }
+    };
   }, []);
 
   return (
