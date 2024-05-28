@@ -13,11 +13,10 @@ ul#header {
   li {
     margin-right: 10px;
     color: #fff;
-    font-family: Fahkwang;
     font-weight: bold;
   }
   li:nth-of-type(1) {
-    font-size: var(--fontSizeSecond);
+    font-size: var(--fontSizeThird);
     font-style: italic;
   }
 }

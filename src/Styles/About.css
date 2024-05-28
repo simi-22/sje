@@ -85,6 +85,8 @@
   animation: text 0.8s linear forwards;
   animation-delay: 0.8s;
   text-align: center;
+  font-size: var(--fontSizeRegular);
+  padding: 0 10px;
 }
 #about .about1 .about-1-cover {
   position: absolute;
@@ -121,7 +123,7 @@
   height: 100%;
   color: #fff;
   font-size: 2.5em;
-  font-family: Fahkwang;
+  font-family: monospace;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,6 +179,11 @@
     filter: blur(0);
   }
 }
+@media (max-width: 840px) {
+  #about .about1 div p {
+    font-size: var(--fontSizeXs);
+  }
+}
 #about .about2 {
   background-color: #000000;
 }
@@ -189,6 +196,7 @@
   font-size: var(--fontSizeXs);
   margin-bottom: 30px;
   color: #ffffff;
+  padding: 0 10px;
 }
 #about .about2 ul {
   display: grid;
@@ -280,6 +288,37 @@
 #about .about2 li:nth-of-type(8) div:nth-of-type(1) {
   background-color: #636cff;
 }
+@media (max-width: 980px) {
+  #about .about2 ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #about .about2 ul li {
+    width: 210px;
+    height: 190px;
+  }
+  #about .about2 ul li div:nth-of-type(2) p {
+    font-size: var(--fontSizeXs);
+  }
+  #about .about2 ul li div:nth-of-type(2) p span {
+    font-size: var(--fontSizeXs);
+  }
+}
+@media (max-width: 680px) {
+  #about .about2 {
+    height: 150vh;
+  }
+  #about .about2 ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 460px) {
+  #about .about2 {
+    height: 250vh;
+  }
+  #about .about2 ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 #about .about3 {
   display: flex;
   flex-direction: column;
@@ -297,4 +336,5 @@
 }
 #about .about3 P {
   font-size: var(--fontSizeXs);
+  padding: 0 10px;
 }

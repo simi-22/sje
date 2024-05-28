@@ -13,25 +13,25 @@
 :root {
   --fontColorB: black;
   --fontColorC: #ccc;
-  --fontSizeBig: 60px;
+  --fontSizeBig: 5vw;
   --fontSizeXs: 14px;
   --fontSizeSm: 16px;
-  --fontSizeSecond: 25px;
-  --fontSizeThird: 20px;
+  --fontSizeSecond: 35px;
+  --fontSizeThird: 25px;
   --fontSizeRegular: 18px;
   --mainColor: #fef8e7;
   --subColor: #fff;
   --sideColor: #ebebeb;
 }
 body {
-  font-family: "Pretendard-Regular";
+  font-family: "Fahkwang";
   width: 100vw;
   overflow-x: hidden;
+  font-size: var(--fontSizeRegular);
 }
 * {
   text-decoration: none;
   color: var(--fontColorB);
-  font-size: var(--fontSizeRegular);
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -47,11 +47,16 @@ button {
 h1 {
   font-size: var(--fontSizeBig);
   font-style: italic;
-  font-family: Fahkwang;
+  text-align: center;
 }
 h2 {
   font-size: var(--fontSizeSecond);
 }
 h3 {
   font-size: var(--fontSizeThird);
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: var(--fontSizeSecond);
+  }
 }
