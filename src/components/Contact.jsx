@@ -68,14 +68,14 @@ const Contact = () => {
   return (
     <div id="contact">
       <div>
-        <p className="quote1">Take the leap.</p>
+        <p className="quote1">Thank you for watching</p>
         <div>
           <a href="tel:01072748977">phone</a>
           <a href="mailto:ssimii0222@gamil.com">email</a>
         </div>
       </div>
       <div>
-        <p className="quote2">Dream, then do.</p>
+        <p className="quote2">Let's talk together.</p>
       </div>
     </div>
   );

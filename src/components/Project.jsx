@@ -148,7 +148,8 @@ const Project = () => {
               Github
             </p>
             <p className="responsive">Responsive</p>
-            <p className="team">Team</p>
+            <p className="team">Team (Git)</p>
+            <p className="p-skill">#Javascript #api</p>
 
             <div></div>
           </li>
@@ -168,6 +169,7 @@ const Project = () => {
               Github
             </p>
             <p className="responsive">Responsive</p>
+            <p className="p-skill">#Javascript #api</p>
 
             <div></div>
           </li>
@@ -187,6 +189,7 @@ const Project = () => {
               Github
             </p>
             <p className="responsive">Responsive</p>
+            <p className="p-skill">#React #api</p>
 
             <div></div>
           </li>
@@ -208,6 +211,7 @@ const Project = () => {
               Github
             </p>
             <p className="responsive">Responsive</p>
+            <p className="p-skill">#React #json</p>
 
             <div></div>
           </li>
@@ -229,7 +233,8 @@ const Project = () => {
               Github
             </p>
             <p className="responsive">Responsive</p>
-            <p className="team">Team</p>
+            <p className="team">Team (Git)</p>
+            <p className="p-skill">#React #api</p>
             <div></div>
           </li>
         </ul>
